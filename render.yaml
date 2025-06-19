@@ -7,7 +7,6 @@ services:
     startCommand: node index.js
     autoDeploy: true
     repo: https://github.com/thejaAshwin62/test-mern-cl
-    branch: main
     envVars:
       - key: PORT
         value: "1000"
